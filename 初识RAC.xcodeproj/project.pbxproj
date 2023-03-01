@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264EBBD4A30B33B58B8FDF9B /* libPods-初识RAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E721A7B28C3BD4070AC3A11 /* libPods-初识RAC.a */; };
 		5834268629927694003423DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834268529927694003423DC /* AppDelegate.m */; };
 		5834268929927694003423DC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834268829927694003423DC /* SceneDelegate.m */; };
 		5834268C29927694003423DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5834268B29927694003423DC /* ViewController.m */; };
@@ -17,6 +18,8 @@
 		583426A129927696003423DC /* __RACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583426A029927696003423DC /* __RACTests.m */; };
 		583426AB29927696003423DC /* __RACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583426AA29927696003423DC /* __RACUITests.m */; };
 		583426AD29927696003423DC /* __RACUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583426AC29927696003423DC /* __RACUITestsLaunchTests.m */; };
+		583426BB2992773F003423DC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583426BA2992773F003423DC /* MainViewController.m */; };
+		583426BE29927FE0003423DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583426BD29927FE0003423DC /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C0BD4C5E15CC53450344327 /* Pods-初识RAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-初识RAC.debug.xcconfig"; path = "Target Support Files/Pods-初识RAC/Pods-初识RAC.debug.xcconfig"; sourceTree = "<group>"; };
+		3E721A7B28C3BD4070AC3A11 /* libPods-初识RAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-初识RAC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5834268129927694003423DC /* 初识RAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "初识RAC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5834268429927694003423DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5834268529927694003423DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,11 @@
 		583426A629927696003423DC /* 初识RACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "初识RACUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583426AA29927696003423DC /* __RACUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __RACUITests.m; sourceTree = "<group>"; };
 		583426AC29927696003423DC /* __RACUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __RACUITestsLaunchTests.m; sourceTree = "<group>"; };
+		583426B92992773F003423DC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		583426BA2992773F003423DC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		583426BC29927FE0003423DC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		583426BD29927FE0003423DC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C54E7EAA9E9C0EB4C8A9270D /* Pods-初识RAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-初识RAC.release.xcconfig"; path = "Target Support Files/Pods-初识RAC/Pods-初识RAC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264EBBD4A30B33B58B8FDF9B /* libPods-初识RAC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +99,8 @@
 				5834269F29927696003423DC /* 初识RACTests */,
 				583426A929927696003423DC /* 初识RACUITests */,
 				5834268229927694003423DC /* Products */,
+				72D8442EB191EC66FAAB891C /* Pods */,
+				B37E6579C7E709A0F09BDAB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +123,10 @@
 				5834268829927694003423DC /* SceneDelegate.m */,
 				5834268A29927694003423DC /* ViewController.h */,
 				5834268B29927694003423DC /* ViewController.m */,
+				583426B92992773F003423DC /* MainViewController.h */,
+				583426BA2992773F003423DC /* MainViewController.m */,
+				583426BC29927FE0003423DC /* SecondViewController.h */,
+				583426BD29927FE0003423DC /* SecondViewController.m */,
 				5834268D29927694003423DC /* Main.storyboard */,
 				5834269029927696003423DC /* Assets.xcassets */,
 				5834269229927696003423DC /* LaunchScreen.storyboard */,
@@ -136,6 +153,23 @@
 			path = "初识RACUITests";
 			sourceTree = "<group>";
 		};
+		72D8442EB191EC66FAAB891C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BD4C5E15CC53450344327 /* Pods-初识RAC.debug.xcconfig */,
+				C54E7EAA9E9C0EB4C8A9270D /* Pods-初识RAC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B37E6579C7E709A0F09BDAB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E721A7B28C3BD4070AC3A11 /* libPods-初识RAC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 583426B029927696003423DC /* Build configuration list for PBXNativeTarget "初识RAC" */;
 			buildPhases = (
+				A322B86CE5D75FAE77394057 /* [CP] Check Pods Manifest.lock */,
 				5834267D29927694003423DC /* Sources */,
 				5834267E29927694003423DC /* Frameworks */,
 				5834267F29927694003423DC /* Resources */,
@@ -261,14 +296,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A322B86CE5D75FAE77394057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-初识RAC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5834267D29927694003423DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583426BE29927FE0003423DC /* SecondViewController.m in Sources */,
 				5834268C29927694003423DC /* ViewController.m in Sources */,
 				5834268629927694003423DC /* AppDelegate.m in Sources */,
 				5834269729927696003423DC /* main.m in Sources */,
+				583426BB2992773F003423DC /* MainViewController.m in Sources */,
 				5834268929927694003423DC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +499,7 @@
 		};
 		583426B129927696003423DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0BD4C5E15CC53450344327 /* Pods-初识RAC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +527,7 @@
 		};
 		583426B229927696003423DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54E7EAA9E9C0EB4C8A9270D /* Pods-初识RAC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
